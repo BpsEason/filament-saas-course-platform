@@ -152,9 +152,7 @@ app/
 │   └── User.php      # 核心使用者模型
 ├── Policies/         # Eloquent Policies，與 Filament 權限無縫對接
 database/
-├── migrations/
-│   ├── landlord/     # 中央資料庫的遷移
-│   └── tenant/       # 所有租戶共享的資料表結構
+├── migrations/       # 中央資料庫的遷移
 └── seeders/          # 【重點】包含完整的測試資料生成邏輯
 ```
 
